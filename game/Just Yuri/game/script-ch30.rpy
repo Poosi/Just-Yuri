@@ -785,6 +785,8 @@ Idle_17: # (Dreaming of Vacations)
     y "Now that is a dream I’ll be holding onto.”
     #"Yuri giggles.”
 
+#EVERYTHING BELOW IS TOO LOOSE
+#############################
 
 Idle_18: # (Opinion on blood?)
     y +A0e "I wonder why people are so afraid at the sight of blood.”
