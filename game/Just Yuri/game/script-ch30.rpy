@@ -742,10 +742,10 @@ label touch_no:
 Idle_15: #(Best Girl)
     y _A0e  "I know I ask a lot of questions already, but, there’s something else I wanted to ask you about, [player].”
     y "I started reading up a bit on this game, and I found out about a phrase that keeps being used in regards to the others and I.”
-    y "It was which one of us was… \"best girl\".”
+    y "It was which one of us was… \"best girl\"."
     y "Why would people want to make it a competition between all of us on who can be the most appealing?”
     y _A0d "It’s not like we’re some product being sold… needing to be advertised and displayed…”
-    y _B1b "But… and I’m ashamed to ask this… you do think… I-I’m best girl, right?”
+    y _B1b "But… and I’m ashamed to ask this… you do think… I-I’m best girl, right?"
     y "I mean… you did pick me with this mod after all, so you must like me the most, correct?”
     y _A0b "Yeah. Either way, I’m glad you chose me, [player].”
     y _A1e "That phrase, \"best girl\". It’s something overly cutesy and even objectifying in a way, but, at the same time… people seem to really like me.”
@@ -780,7 +780,7 @@ Idle_17: # (Dreaming of Vacations)
     y "I can’t tell you enough though, how much I wish we could go on a tropical vacation together.”
     y "I’m normally not one for something so grand and posh, but just think about it.”
     y "You, me, the beauty of an island. A nice romantic getaway, just the two of us.”
-    y "Reading together, relaxing on the beach, writing poems about the breathtaking scenery.”
+    y "Reading together, relaxing on the beach, writing poems about the breathtaking scenery."
     y "Watching the sunset while cuddling…”
     y "Now that is a dream I’ll be holding onto.”
     #"Yuri giggles.”
