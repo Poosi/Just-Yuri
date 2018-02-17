@@ -1,0 +1,125 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/definitions.rpy", line 1070: image name components may not begin with a '-'.
+    image yuri -A0c = "mod_assets/images/images/yuri/space/-A0c.png"
+               ^
+
+File "game/definitions.rpy", line 1071: image name components may not begin with a '-'.
+    image yuri -A0d = "mod_assets/images/images/yuri/space/-A0d.png"
+               ^
+
+File "game/definitions.rpy", line 1072: image name components may not begin with a '-'.
+    image yuri -B0c = "mod_assets/images/images/yuri/space/-B0c.png"
+               ^
+
+File "game/definitions.rpy", line 1073: image name components may not begin with a '-'.
+    image yuri -B0d = "mod_assets/images/images/yuri/space/-B0d.png"
+               ^
+
+File "game/definitions.rpy", line 1074: image name components may not begin with a '-'.
+    image yuri -C0c = "mod_assets/images/images/yuri/space/-C0c.png"
+               ^
+
+File "game/definitions.rpy", line 1075: image name components may not begin with a '-'.
+    image yuri -C0d = "mod_assets/images/images/yuri/space/-C0d.png"
+               ^
+
+File "game/definitions.rpy", line 1077: expected '=' not found.
+    image yuri +A0a = "mod_assets/images/images/yuri/space/+A0a.png"
+               ^
+
+File "game/definitions.rpy", line 1078: expected '=' not found.
+    image yuri +A0b = "mod_assets/images/images/yuri/space/+A0b.png"
+               ^
+
+File "game/definitions.rpy", line 1079: expected '=' not found.
+    image yuri +A2a = "mod_assets/images/images/yuri/space/+A2a.png"
+               ^
+
+File "game/definitions.rpy", line 1080: expected '=' not found.
+    image yuri +A2b = "mod_assets/images/images/yuri/space/+A2b.png"
+               ^
+
+File "game/definitions.rpy", line 1081: expected '=' not found.
+    image yuri +A2c = "mod_assets/images/images/yuri/space/+A2c.png"
+               ^
+
+File "game/definitions.rpy", line 1082: expected '=' not found.
+    image yuri +A2d = "mod_assets/images/images/yuri/space/+A2d.png"
+               ^
+
+File "game/definitions.rpy", line 1083: expected '=' not found.
+    image yuri +B0a = "mod_assets/images/images/yuri/space/+B0a.png"
+               ^
+
+File "game/definitions.rpy", line 1084: expected '=' not found.
+    image yuri +B0b = "mod_assets/images/images/yuri/space/+B0b.png"
+               ^
+
+File "game/definitions.rpy", line 1085: expected '=' not found.
+    image yuri +B2a = "mod_assets/images/images/yuri/space/+B2a.png"
+               ^
+
+File "game/definitions.rpy", line 1086: expected '=' not found.
+    image yuri +B2b = "mod_assets/images/images/yuri/space/+B2b.png"
+               ^
+
+File "game/definitions.rpy", line 1087: expected '=' not found.
+    image yuri +B2c = "mod_assets/images/images/yuri/space/+B2c.png"
+               ^
+
+File "game/definitions.rpy", line 1088: expected '=' not found.
+    image yuri +B2d = "mod_assets/images/images/yuri/space/+B2d.png"
+               ^
+
+File "game/definitions.rpy", line 1089: expected '=' not found.
+    image yuri +C0a = "mod_assets/images/images/yuri/space/+C0a.png"
+               ^
+
+File "game/definitions.rpy", line 1090: expected '=' not found.
+    image yuri +C0b = "mod_assets/images/images/yuri/space/+C0b.png"
+               ^
+
+File "game/definitions.rpy", line 1091: expected '=' not found.
+    image yuri +C2a = "mod_assets/images/images/yuri/space/+C2a.png"
+               ^
+
+File "game/definitions.rpy", line 1092: expected '=' not found.
+    image yuri +C2b = "mod_assets/images/images/yuri/space/+C2b.png"
+               ^
+
+File "game/definitions.rpy", line 1093: expected '=' not found.
+    image yuri +C2c = "mod_assets/images/images/yuri/space/+C2c.png"
+               ^
+
+File "game/definitions.rpy", line 1094: expected '=' not found.
+    image yuri +C2d = "mod_assets/images/images/yuri/space/+C2d.png"
+               ^
+
+File "game/definitions.rpy", line 1095: expected '=' not found.
+    image yuri +D0a = "mod_assets/images/images/yuri/space/+D0a.png"
+               ^
+
+File "game/definitions.rpy", line 1096: expected '=' not found.
+    image yuri +D0b = "mod_assets/images/images/yuri/space/+D0b.png"
+               ^
+
+File "game/definitions.rpy", line 1097: expected '=' not found.
+    image yuri +D2a = "mod_assets/images/images/yuri/space/+D2a.png"
+               ^
+
+File "game/definitions.rpy", line 1098: expected '=' not found.
+    image yuri +D2b = "mod_assets/images/images/yuri/space/+D2b.png"
+               ^
+
+File "game/definitions.rpy", line 1099: expected '=' not found.
+    image yuri +D2c = "mod_assets/images/images/yuri/space/+D2c.png"
+               ^
+
+File "game/definitions.rpy", line 1100: expected '=' not found.
+    image yuri +D2d = "mod_assets/images/images/yuri/space/+D2d.png"
+               ^
+
+Ren'Py Version: Ren'Py 6.99.13.2919
