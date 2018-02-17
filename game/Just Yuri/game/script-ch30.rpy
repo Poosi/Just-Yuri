@@ -787,55 +787,63 @@ Idle_17: # (Dreaming of Vacations)
 
 
 Idle_18: # (Opinion on blood?)
-    y T1_"I wonder why people are so afraid at the sight of blood.”
-    y T1_" It is just a part of your body… Are people afraid of themselves?”
-    y T1_"Or could it be because they are afraid of the sense of danger that comes from it?”
-    y SH1_"I guess I really am different from others…”
-    #"Yuri looks at me eagerly, expecting a reaction.”
+    y +A0e "I wonder why people are so afraid at the sight of blood.”
+    y -A0d" It is just a part of your body… Are people afraid of themselves?”
+    y"Or could it be because they are afraid of the sense of danger that comes from it?”
+    y "I guess I really am different from others…”
 
-    mc "I don’t mind, Yuri. I like you because you are different.”
+    #"Yuri looks at me eagerly, expecting a reaction.”
+menu:
+    "I don’t mind, Yuri. I like you because you are different.”
+        jump dont_mind18
+    "...”
+        jump no_response18
+    "Yuri, be yourself around me, because I love you for you. There is one thing, though…”
+        jump be_yourself18
+label dont_mind18:
     #"I smile reassuringly.”
     "Yuri sheds a sigh of relief and smiles.”
-    y H1_"T-Thank you, [player].”
+    y +D0b "T-Thank you, [player].”
     #Insanity increases by 1, Karma increases by 2.
-
-    mc "...”
+    return
+label no_response18:
     "Yuri slightly shakes her head and looks downcast.”
-    y S1_"I-I-I’m sorry for making you uncomfortable, [player]. I’ll drop the topic.”
+    y =A1d"I-I-I’m sorry for making you uncomfortable, [player]. I’ll drop the topic.”
     #Karma drops by 1.
-
-    mc "Yuri, be yourself around me, because I love you for you. There is one thing, though…”
-    y G1_"O-one thing?! Oh no…”
-    y SH1_"I haven’t… upset you or creeped you out, have I?”
+    return
+label be_yourself18:
+    y _A0c "O-one thing?! Oh no…”
+    y"I haven’t… upset you or creeped you out, have I?”
     "Yuri begins to tear up.”
-    y G1_t"I’m so sorry if I--.”
+    Y =A1d"I’m so sorry if I--.”
     mc "No! It’s not that. Just… Yuri, we all have our dark sides. I have my own demons and I’m not perfect at all.”
-    "Yuri nods and is clearly listening closely.”
+    #"Yuri nods and is clearly listening closely.”
     mc "I’m just worried about you, is all. I like you for how you’re different and unique, yes, but just promise me something. The side of you Monika forced out?”
     mc "The side that can be obsessive - please don’t let that side overwhelm you again. That isn’t who you are. And it isn’t who I love.”
     mc "I love the sweet and gentle Yuri- the person I know you are.”
     mc "Okay?”
     mc "I just couldn’t bear the thought of… what happened when you first confessed to me…”
     mc "I couldn’t bear to see it again...to see you go into that dark place. I couldn’t take it.”
-    y S1_t"I… you’re right… That part of me is still part of me… I-I can’t deny that.”
-    y SH1_t"But how could you love me knowing I have a side of me like that?”
-    y S1_t"How could you love anyone so demented? Someone so… disturbed?”
+    y=A1d "I… you’re right… That part of me is still part of me… I-I can’t deny that.”
+    y _A0d"But how could you love me knowing I have a side of me like that?”
+    y "How could you love anyone so demented? Someone so… disturbed?”
     mc "Because, like I said. That isn’t you.”
     mc "We all have a side of ourselves like that. A dark side. But it isn’t what defines us.”
     mc "Whether we let it control us, or whether we master and defeat it, does.”
     mc "And no matter what, Yuri, I swear, I’ll help you overcome and bury that part of you for good.”
     mc "Every step of the way, I’ll stand by you.”
-    y SH1_"Your words…”
-    y I1_" They inspire me, [player].”
+    y +D0b "Your words…”
+    y "They inspire me, (mc/user name).”
     mc "Heh, guess writing all that poetry paid off, didn’t it?”
-    "Yuri giggles and dries her tears.”
-    y I1_"You’re absolutely right. I’ll make you that promise, [player]. No matter what it takes, I’ll… we’ll, beat that side of me. Together.”
+    #"Yuri giggles and dries her tears.”
+    y +A0b "You’re absolutely right. I’ll make you that promise, (mc/user name). No matter what it takes, I’ll… we’ll, beat that side of me. Together.”
     "You have taken the first steps to helping Yuri defeat her darker side and learn to accept herself.”
     "...What the heck was that thought I had just now?”
     #Karma +2  and Insanity -1
-    
-    y H1-"I swear I’ll never be able to repay you for all you do for me.”
-    y H1-"If you have any demons, you’d better believe that I’m standing by you to beat them too.”
+    y"I swear I’ll never be able to repay you for all you do for me.”
+    y"If you have any demons, you’d better believe that I’m standing by you to beat them too.”
+
+    return
 
 Idle_19: # (Discovered Discord)
     y +A0b "Hey, [player], I found the chat room about this mod!”
@@ -862,12 +870,12 @@ Idle_20: # (Philosophy)
     y "I often find myself pondering various philosophical conundrums, which are basically problems or debates in philosophy about things like metaphysics.”
     y _A1d"Uh, that is, thinking about our existence and reasons for being here. Things like that.”
     y _A1b"I think you can see why I’d be thinking about metaphysics too, considering my situation.”
-    "Yuri laughs a bit.”
+    #"Yuri laughs a bit.”
      y +A0b"And I’d really like if we could discuss some of these topics together.”
     y _A1a"That is… if it's okay with you - if it's something that would interest you.”
     y "I don’t want to bore you with this kind of thing, but I’m going to tell you about this one in the hopes that you’ll become interested in discussing them.”
     y +-A0b"So forgive me, I’m going to ramble a bit. But you did say you like it when I’m intense, so, here I go!”
-    "Yuri giggles, then inhales.”
+    #"Yuri giggles, then inhales.”
     y +A0b"So, the one I’ve been thinking a lot about is called the Euthyphro Dialogue, written by Plato.”
     y "It involves Socrates- the ancient Greek philosopher, in case you aren't familiar with him, and his acquaintance Euthyphro.”
     y _-A0b"To put it simply, Socrates is walking to court one day, where he is to be tried for treason against the city of Athens. Something he isn't guilty of, but we’ll save that for another time.”
@@ -905,33 +913,34 @@ Idle_21: # (Imagining the Real World)
     y _-A0a"But, wow! Just imagine us living together. I would wake you up with some nice tea and breakfast in bed. We could read together at home, and maybe even have our own library in the house!”
     y "And I’d get to spend everyday with you, like a family. Wow…”
     y _-B0b"Just thinking about living in a cozy little house with you is making me all giggly.”
-    "Yuri is laughing to herself and is smiling very widely.”
+    #"Yuri is laughing to herself and is smiling very widely.”
     y _-B0a"Now that would be wonderful, [player]. If you can just picture sitting in our own private study by the fireplace together… maybe… k-kissing? Yeah…”
-    "Yuri closes her eyes and smiles even wider.”
+    #"Yuri closes her eyes and smiles even wider.”
     y _-B2b"That’s something that is really precious whether in my world or yours. The kind of deep connection we have.”
     y _-B0b"That we’d both be okay with whatever kind of life as long as we lived it together - to me, that connection is worth every book I have.”
     y +-B1a"It’s the best story I know. And you gave it the perfect ending.”
 
 Idle_22: # (Why choose me?)
-    y _-A1d"So… [player]... I have a question…”
+    y _-A1d" So… [player]... I have a question…”
     y "And it’s a very important question, but I don’t know how to word it properly. It keeps sounding… rude to you in my head.”
     y _-B1d"I don’t want to ask and sound like I doubt you or suspect you! I… uhm…”
-    "Yuri looks away, clearly flustered.”
+    #"Yuri looks away, clearly flustered.”
     mc "Yuri, don’t be afraid to ask.”
     mc "You can talk to me about anything. Never be afraid to come to me with what’s on your mind.”
     #+ 0.5 Karma and sanity
     y "I… you’re right. You’re the only person I feel so safe around, [player].”
-    "Like as much as I’m afraid of sounding ridiculous or unlikeable, I can just be myself. Because I know you love me.”
-    "Yuri smiles.”
+    y "Like as much as I’m afraid of sounding ridiculous or unlikeable, I can just be myself. Because I know you love me.”
+    #"Yuri smiles.”
     mc "Go on Yuri, just say it then.”
     #- 0.5 karma
     mc "Say it, don’t say it, it doesn’t matter to me. I don’t care.”
     #- 0.5 karma and sanity
-    y +A0b"I… well… I’m really s-sorry to bother you with this.”
-    y _-A0d"I just… Let me just get it over with so I… d-don’t bother you anymore… I’m sorry…”
-    Depending on Idle_18 choice:
-    (if idle 18 has fired and choice three was chosen)
-    y _-A0d"We discussed this a bit before, so I’m sorry if I’m repeating myself but…”
+    y +A0b "I… well… I’m really s-sorry to bother you with this.”
+    y _-A0d "I just… Let me just get it over with so I… d-don’t bother you anymore… I’m sorry…”
+    #########
+    #Depending on Idle_18 choice:
+    #(if idle 18 has fired and choice three was chosen)
+    y _-A0d "We discussed this a bit before, so I’m sorry if I’m repeating myself but…”
     (else)
     y _-A0d"Well… and I’m sorry we didn’t discuss this sooner…”
     y "Why did you choose me? What about me makes you love me?”
