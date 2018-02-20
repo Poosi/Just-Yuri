@@ -1,0 +1,17 @@
+$ coins = 0 
+$ items = [] 
+"Today you made 10 coins!  Good job!"
+$ coins += 10 
+"You have %(coins)d coins remaining.  What would you like to buy?" 
+menu:
+   "Spaghetti":
+      $ coins -= 3 
+      $ items.append("spaghetti")
+   "Olives":
+      $ coins -= 4
+      $ items.append("olives")
+   "Chocolate":
+      $ coins -= 11
+      $ items.append("chocolate")
+if "chocolate" in items: 
+   "You have a bar of chocolate!  Yummy!"

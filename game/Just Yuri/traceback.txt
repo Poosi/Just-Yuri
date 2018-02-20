@@ -1,0 +1,27 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script-ch30.rpy", line 204, in script
+    if currentuser != "" and currentuser.lower() != player.lower():
+  File "game/script-ch30.rpy", line 204, in <module>
+    if currentuser != "" and currentuser.lower() != player.lower():
+NameError: name 'currentuser' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script-ch30.rpy", line 204, in script
+    if currentuser != "" and currentuser.lower() != player.lower():
+  File "/Users/Primus/Desktop/renpy-6.99.13-sdk/renpy/ast.py", line 1681, in execute
+    if renpy.python.py_eval(condition):
+  File "/Users/Primus/Desktop/renpy-6.99.13-sdk/renpy/python.py", line 1794, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/Primus/Desktop/renpy-6.99.13-sdk/renpy/python.py", line 1788, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script-ch30.rpy", line 204, in <module>
+    if currentuser != "" and currentuser.lower() != player.lower():
+NameError: name 'currentuser' is not defined
+
+Darwin-17.2.0-x86_64-i386-64bit
+Ren'Py 6.99.13.2919
+Just Yuri Beta
